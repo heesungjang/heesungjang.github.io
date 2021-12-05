@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/자바스크립트",
+    "result": {"pageContext":{"currentCategory":"자바스크립트","categories":["All","프론트엔드","자료구조","알고리즘","자바스크립트"],"edges":[{"node":{"id":"c277c893-40fb-5b2b-bc9e-3c69d1738d03","excerpt":"✏️ Primitive Type(원시 타입) 원시 타입 예제: 여기서 age 변수는 28이라는 number type을 할당받는다. number는 원시 값 혹은 primitive value라고 부른다. 자바스크립트의 뼈대가 되는 타입, 즉 가장 심플한 자바스크립트 빌등 블럭을 원시 타입이라고 부르고 number 말고도 string, null, undefined, bloolean을 포함해 5가지가 존재한다. ✏️ Reference Type(참조 타입) 참조 타입 예시: 위에 예시 코드에서 person은 잘 알고있는 객체와 배열이다. 객체와 배열의 타입은 참조 타입이며 여기서 중요하게 봐야하는 부분은 참조 타입이지만 원시 타입의 값들을 가진다는 것이다. 🤔 원시, 참조 타입은 어떻게 다른가? 자바스크립트 언어는 2가지의 memory를 가진다. Stack Heap 스택은 기본적으로 액세스하기 쉬운 메모리로서 항목을 스택으로 관리한다. 스택에 올라갈수 있는 데이터는 숫자, 문자열, bloole…","fields":{"slug":"/referenceAndPrimitive/"},"frontmatter":{"categories":"자바스크립트","title":"reference vs. primitive","date":"May 13, 2021"}},"next":{"fields":{"slug":"/PropTypes/"}},"previous":{"fields":{"slug":"/contextApi/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
