@@ -6,6 +6,8 @@ author: 장희성
 tags: useState state redux react
 categories: 프론트엔드
 ---
+
+
 ![](https://images.velog.io/images/heesungj7/post/e5164da3-d8c9-422a-b50f-3b40b6dd6d49/Function%20(8).png)> 
 
 "왜 redux가 꼭 필요한가..?" 🤔 문득 이런 생각이 들었다. 
@@ -96,7 +98,6 @@ const [searchResult, setSearchResult] = useState([]); // 게시물 리스트 배
 ### Redux 사용예시
 
 ```javascript
-
 // App.js
 useEffect(() => {
         if (is_token) {

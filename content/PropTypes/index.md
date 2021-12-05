@@ -1,6 +1,6 @@
 ---
 emoji: ✏️
-title: 리액트 contextAPI
+title: prop-types
 date: '2021-05-05 00:00:00'
 author: 장희성
 tags: contextApi
