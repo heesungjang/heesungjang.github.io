@@ -1,7 +1,7 @@
 module.exports = {
   title: `heesungjang.github.io`,
   description: `장희성의 개발일기`,
-  language: `ko`, // `ko`, `en` => currently support versions for Korean and English
+  language: `en`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://heesungjang.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
@@ -11,10 +11,15 @@ module.exports = {
   },
   ga: 'UA-134826755-2', // Google Analytics Tracking ID
   author: {
-    name: `장희성`,
+    name: `Heesung Jang`,
     bio: {
-      role: `개발자`,
-      description: ['프론트엔드', '문제를 해결하는', '새로운것을 즐기는'],
+      role: `developer`,
+      description: [
+        'making great things',
+        'who enjoys learning',
+        'who values people',
+        'who drinks a lot of coffee ☕️',
+      ],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
