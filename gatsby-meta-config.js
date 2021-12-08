@@ -1,6 +1,6 @@
 module.exports = {
   title: `heesungjang.github.io`,
-  description: `장희성의 개발일기`,
+  description: `heesung's personal study blog`,
   language: `en`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://heesungjang.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `developer`,
       description: [
-        'making great things',
+        'who builds great things',
         'who enjoys learning',
         'who values people',
         'who drinks a lot of coffee ☕️',
@@ -49,15 +49,15 @@ module.exports = {
       // ========================================================
       {
         date: '2021.01 ~',
-        activity: '개발 시작',
+        activity: 'Started my development journey',
       },
       {
         date: '2021.06 ~ 2021.09',
-        activity: '항해99 프론트엔드 과정 수료',
+        activity: 'Completed an intensive boot camp course - "sail99"',
       },
       {
         date: '2021.09 ~',
-        activity: '프론트엔드 개발자',
+        activity: 'Frontend developer',
       },
     ],
 
