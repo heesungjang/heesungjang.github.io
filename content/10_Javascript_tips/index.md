@@ -2,7 +2,7 @@
 emoji: 💰
 title: 10 Javascript tricks (syntax)
 date: '2022-02-24 00:00:00'
-author: Joseph Jang
+author: Heesung Jang
 tags: javascript
 categories: javascript
 ---
