@@ -1,6 +1,6 @@
 ---
 emoji: 💰
-title: 10 Javascript tricks (syntax)
+title: 10 Javascript tips
 date: '2022-02-24 00:00:00'
 author: Heesung Jang
 tags: javascript
