@@ -12,60 +12,61 @@ categories: javascript
 You can use ES6 destructuring assignment syntax to swap two variables
 
 ```javascript
-let a = 5, b = 10
+let a = 5,
+  b = ((10)[(a, b)] = [b, a]);
 
-[a, b] = [b, a]
-
-console.log(a, b)  // 10 5
+console.log(a, b); // 10 5
 ```
 
 ## 2. Avoiding for loops by creating array
-You could write a simple for loop to iterate over some range like below:
-```javascript
-let sum = 0
 
-for (let i = 5;  i < 10; i +=1) {
-    sum +=i
+You could write a simple for loop to iterate over some range like below:
+
+```javascript
+let sum = 0;
+
+for (let i = 5; i < 10; i += 1) {
+  sum += i;
 }
 ```
+
 However, if you want to write a range loop in functional programming way, you can create an array like below:
 
 ```javascript
-const sum = Array
-    .from(new Array(5), (_, k) => k + 5)
-    .reduce((acc, cur) => acc + cur, 0);
+const sum = Array.from(new Array(5), (_, k) => k + 5).reduce((acc, cur) => acc + cur, 0);
 ```
 
-## 3. Removing repeated values in an array using 
-You can use **Set** in javascript for removing repeated value in an array.
-Set 
+## 3. Removing repeated values in an array using
 
+You can use **Set** in javascript for removing repeated value in an array.
+Set
 
 "The Set object lets you store unique values of any type, A value in the Set may only occur once" - MDN
 
 ```javascript
-const names = ['Lee', 'Kim', 'Park', 'Lee', 'Kim']
+const names = ['Lee', 'Kim', 'Park', 'Lee', 'Kim'];
 
-const uniqueNamesWithArrayFrom= Array.from(new Set(names))
+const uniqueNamesWithArrayFrom = Array.from(new Set(names));
 
-                            or
+or;
 
-const uniqueNamesWithSpread = [...new Set(names)]
+const uniqueNamesWithSpread = [...new Set(names)];
 ```
 
 ## 4. Merge two objects by using spread syntax
-You can merge two objects and assign to new variable with spread syntax like below: 
+
+You can merge two objects and assign to new variable with spread syntax like below:
 
 ```javascript
 const person = {
-    name: 'Lee Sun-Hyoup',
-    familyName: 'Lee',
-    givenName: 'Sun-Hyoup'
+  name: 'Lee Sun-Hyoup',
+  familyName: 'Lee',
+  givenName: 'Sun-Hyoup',
 };
 
 const company = {
-    name: 'Cobalt. Inc.',
-    address: 'Seoul'
+  name: 'Cobalt. Inc.',
+  address: 'Seoul',
 };
 
 const leeSunHyoup = { ...person, ...company };
@@ -78,7 +79,6 @@ console.log(leeSunHyoup);
 //   givenName: “Sun-Hyoup”
 //   name: "Cobalt. Inc." // note that if there is a same key value, last one will take over
 // }
-
 ```
 
 ## 5. && and ||
@@ -88,7 +88,7 @@ console.log(leeSunHyoup);
 const name = participantName || 'Guest';
 
 // when you want to conditionally operate some function:
-// func will only be execute if flag is true 
+// func will only be execute if flag is true
 flag && func();
 
 // or during object merging
@@ -96,8 +96,8 @@ flag && func();
 const makeCompany = (showAddress) => {
   return {
     name: 'Cobalt. Inc.',
-    ...showAddress && { address: 'Seoul' }
-  }
+    ...(showAddress && { address: 'Seoul' }),
+  };
 };
 
 console.log(makeCompany(false));
@@ -107,7 +107,9 @@ console.log(makeCompany(true));
 ```
 
 ## 6. object destructuring
+
 Let's get values that are actually being used:
+
 ```javascript
 const person = {
     name: 'Lee Sun-Hyoup',
@@ -120,7 +122,8 @@ const person = {
 const { familyName, givenName } = person;
 ```
 
-## 7. 
+## 7.
+
 Use variable name as key in an javascript object
 
 ```javascript
@@ -128,8 +131,8 @@ const name = 'Lee Sun-Hyoup';
 const company = 'Cobalt';
 const person = {
   name,
-  company
-}
+  company,
+};
 console.log(person);
 // {
 //   name: 'Lee Sun-Hyoup'
@@ -138,20 +141,22 @@ console.log(person);
 ```
 
 ## 8. Destructuring object for function argument
-destructure an object that is passed to  a function as an argument:
+
+destructure an object that is passed to a function as an argument:
 
 ```javascript
 const makeCompany = ({ name, address, serviceName }) => {
   return {
     name,
     address,
-    serviceName
-  }
+    serviceName,
+  };
 };
 const cobalt = makeCompany({ name: 'Cobalt. Inc.', address: 'Seoul', serviceName: 'Present' });
 ```
 
 ## 9. Let's make object key dynamic!
+
 From ES6, you can make your object key dynamic like BTS😅
 
 ```javascript
@@ -159,7 +164,7 @@ const nameKey = 'name';
 const emailKey = 'email';
 const person = {
   [nameKey]: 'Lee Sun-Hyoup',
-  [emailKey]: 'kciter@naver.com'
+  [emailKey]: 'kciter@naver.com',
 };
 console.log(person);
 // {
@@ -171,7 +176,6 @@ console.log(person);
 ## 10. !! operator to change null, or undefined to boolean value
 
 ```javascript
-
 function check(variable) {
   if (!!variable) {
     console.log(variable);
@@ -187,4 +191,8 @@ check('Good'); // Good
 check(''); // wrong value
 check(NaN); // wrong value
 check(5); // 5
+```
+
+```toc
+
 ```
