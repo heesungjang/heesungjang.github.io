@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/Algorithm",
+    "result": {"pageContext":{"currentCategory":"Algorithm","categories":["All","Errors","Frontend","Data","Structure","알고리즘","Algorithm"],"edges":[{"node":{"id":"cb1ba609-d7b7-56e9-8622-fa22b6b65216","excerpt":"Time complexity & space complexity Time complexity is a concept representing the efficiency of the code by predicting the execution time. Spatial complexity is a concept that represents the efficiency of memory allocation. Big O 표기법 Method of evaluating the “efficiency” of an algorithm by mathematically expressing the performance of the algorithm. Note that, since the goal is to predict the performance of the algorithm rather than to calculate the exact running time of the actual algorithm, con…","fields":{"slug":"/Big-O/"},"frontmatter":{"categories":"Algorithm","title":"Big O notation","date":"June 19, 2021"}},"next":{"fields":{"slug":"/binary-search/"}},"previous":{"fields":{"slug":"/stack-and-queue/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
