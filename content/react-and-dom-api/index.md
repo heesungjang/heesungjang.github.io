@@ -4,7 +4,7 @@ title: react 컴포넌트와 DOM api
 date: '2021-10-07 00:00:00'
 author: 장희성
 tags: react
-categories: 프론트엔드
+categories: Frontend
 ---
 
 ![](https://images.velog.io/images/heesungj7/post/7e27d877-5adb-47ab-85e6-25ca0cb2719a/unnamed.jpeg)

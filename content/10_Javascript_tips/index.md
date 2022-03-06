@@ -4,7 +4,7 @@ title: 10 Javascript tips
 date: '2022-02-24 00:00:00'
 author: Heesung Jang
 tags: javascript
-categories: javascript
+categories: Frontend
 ---
 
 ## 1. Variable swapping by destructuring assignment

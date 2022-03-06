@@ -4,7 +4,7 @@ title: 리액트 key props 자세히 알아보기
 date: '2021-09-23 00:00:00'
 author: 장희성
 tags: react
-categories: 프론트엔드
+categories: Frontend
 ---
 
 ![](https://images.velog.io/images/heesungj7/post/dfbc6ee9-8e5e-4b85-8056-abc53c6aef83/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.53.31.png)

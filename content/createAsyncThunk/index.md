@@ -4,7 +4,7 @@ title: 리덕스 createAsyncThunk로 비동기 처리하기
 date: '2021-07-12 00:00:00'
 author: 장희성
 tags: redux
-categories: 프론트엔드
+categories: Frontend
 ---
 
 ## 🤔 리덕스는 어떻게 관리할까?

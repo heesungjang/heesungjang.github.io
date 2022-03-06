@@ -4,7 +4,7 @@ title: 해시 테이블 (hash table)
 date: '2021-11-09 00:00:00'
 author: 장희성
 tags: 자료구조 해시 hash table 파이썬
-categories: 자료구조
+categories: Data Structure
 ---
 
 ## #️⃣ 해시

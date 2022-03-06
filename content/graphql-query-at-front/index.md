@@ -4,7 +4,7 @@ title: Graphql은 REST API의 어떤점을 해결해주나?
 date: '2021-09-17 00:00:00'
 author: 장희성
 tags: graphql
-categories: 프론트엔드
+categories: Frontend
 ---
 
 # GraphQL이 도대체 뭐야?
@@ -151,7 +151,7 @@ query {
 /free/post/:post_id/like
 ```
 
-백엔드 개발자는 보통 위 예시와 같은 각각의 endpoint를 만들고 프론트엔드 개발자가 이를 통해 데이터에 접근할수 있도록 공유 해야한다.
+백엔드 개발자는 보통 위 예시와 같은 각각의 endpoint를 만들고 Frontend 개발자가 이를 통해 데이터에 접근할수 있도록 공유 해야한다.
 
 ![](https://images.velog.io/images/heesungj7/post/25bdccf7-e3eb-4223-904b-e9200d8bb9ce/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-17%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.19.59.png)
 
