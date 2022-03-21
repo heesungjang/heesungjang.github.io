@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"leetcode(509)- fibonacci-number","categories":"algorithm"},"fields":{"slug":"/leetcode-509/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"leetcode(20)- valid parentheses","categories":"algorithm"},"fields":{"slug":"/leetcode-20/"}}},{"node":{"frontmatter":{"title":"leetcode(509)- fibonacci-number","categories":"algorithm"},"fields":{"slug":"/leetcode-509/"}}}]}}}
