@@ -1,6 +1,6 @@
 ---
 emoji: ✏️
-title: leetcode(20)- valid parentheses
+title: leetcode(20)- Valid parentheses
 date: '2021-03-21 00:00:00'
 author: heesung jang
 tags: 스택, leetcode
