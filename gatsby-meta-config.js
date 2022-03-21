@@ -14,12 +14,7 @@ module.exports = {
     name: `Heesung Jang`,
     bio: {
       role: `developer`,
-      description: [
-        'who builds great things',
-        'who enjoys learning',
-        'who values people',
-        'who drinks a lot of coffee ☕️',
-      ],
+      description: ['who builds great things', 'who enjoys learning', 'who values people 💎'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
