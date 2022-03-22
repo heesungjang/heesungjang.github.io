@@ -42,7 +42,7 @@ function Bio({ author, language = 'ko' }) {
           </div>
         </div>
       )}
-      <Image className="thumbnail" src={bio.thumbnail} alt="thumbnail" />
+      {/* <Image className="thumbnail" src={bio.thumbnail} alt="thumbnail" /> */}
     </div>
   );
 }
