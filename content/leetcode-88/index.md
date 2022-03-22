@@ -1,15 +1,15 @@
 ---
 emoji: ✏️
-title: leetcode(151)- Reverse Words in a String
-date: '2021-03-22 00:00:00'
+title: leetcode(88)- Merge sorted array
+date: '2021-03-23 00:00:00'
 author: heesung jang
-tags: leetcode, 문장 뒤집기
+tags: leetcode, 리스트병합
 categories: algorithm
 ---
 
 문제: [leetcode - 88](https://leetcode.com/problems/merge-sorted-array/submissions/) (Merge sorted array)
 
-오름차순으로 정렬된 정수들로 이루어진 2개의 배열 nums1과 nums2가 입력값으로 주어진다. 그냥보면 병합절렬 문제이다. 특이한점이 있다면 return 값으로 병합된 배열을 반환하지 않고 초기에 주어진 nums1에 직접 병합을 해야한다.
+오름차순으로 정렬된 정수들로 이루어진 2개의 배열 nums1과 nums2가 입력값으로 주어진다. 그냥보면 병합정렬 문제이다. 특이한점이 있다면 return 값으로 병합된 배열을 반환하지 않고 초기에 주어진 nums1에 직접 병합을 해야한다.
 
 예시:
 
