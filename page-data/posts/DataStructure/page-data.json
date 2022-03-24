@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/DataStructure",
+    "result": {"pageContext":{"currentCategory":"DataStructure","categories":["All","DataStructure","algorithm"],"edges":[{"node":{"id":"b73e5d13-5030-5ce7-b1d2-5a706e1aae45","excerpt":"#️⃣ 해시 👨‍🏫 해쉬 테이블(Hash Table)은 “키” 와 “데이터”를 저장함으로써 즉각적으로 데이터를 받아오고 업데이트하고 싶을 때 사용하는 빠른 검색과 저장이 특징인 자료구조이다. 해시 테이블의 형태의 자료구조는 여러 언어에서 이미 우리가 많이 사용하고 있다. 자바스크립트의 오브젝트 또는 파이썬의 딕셔너리를 해시 테이블과 같다고 보면 된다 (사실 완저히 같다고 할 수는 없지만 현재로서는 이렇게 이해하는게 가장 좋을거 같다). “데이터를 빠르게 검색할 수 있다”라는 해시 테이블의 장점은 우리가 딕셔너리에서 또는 자바스크립트 오브젝트에서 index가 아닌 key 값으로 특정 데이터에 접근할 때를 생각하면 된다. 예를 들어서 위에 예시로 작성한 dict 오브젝트에 2개의 데이터 쌍이 아닌 100개의 key value 쌍의 데이터가 있다고 생각해보자. 아무리 많은 데이터가 있어도 key 값만 가지고 있다면 바로 원하는 데이터에 접근할 수 있고 따라서 해시테이블의 평균 시간복잡도는 O(…","fields":{"slug":"/algo-hash-table/"},"frontmatter":{"categories":"DataStructure","title":"Hash table","date":"November 09, 2021"}},"next":{"fields":{"slug":"/algo-binary-search/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
