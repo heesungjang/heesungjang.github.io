@@ -1,13 +1,13 @@
 ---
 emoji: ✏️
 title: leetcode(151)- Reverse Words in a String
-date: '2021-03-22 00:00:00'
+date: '2022-03-22 00:00:00'
 author: heesung jang
 tags: leetcode, 문장 뒤집기
 categories: algorithm
 ---
 
-문제: [leetcode - 151](https://leetcode.com/problems/fibonacci-number/) (Reverse Words in a String)
+문제: [leetcode - 151](https://leetcode.com/problems/reverse-words-in-a-string/) (Reverse Words in a String)
 
 🎉 기분이 좋은 밤이다. 블로그에 현재까지 정리한 문제풀이는 지금 작성하고 있는 리트코드 151번 문제를 포함해서 3개밖에 되지 않지만 벌써 3주째 하루에 한 문제씩 알고리즘 문제를 풀고있다. 아직까지 Hard level의 문제는 시도조차 하지 않고 있고 easy 또는 Medium level의 문제 위주로 풀고있다.
 

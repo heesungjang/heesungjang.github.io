@@ -1,7 +1,7 @@
 ---
 emoji: ✏️
 title: leetcode(88)- Merge sorted array
-date: '2021-03-23 00:00:00'
+date: '2022-03-23 00:00:00'
 author: heesung jang
 tags: leetcode, 리스트병합
 categories: algorithm

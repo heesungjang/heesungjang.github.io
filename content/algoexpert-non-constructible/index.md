@@ -3,7 +3,7 @@ emoji: ✏️
 title: algoexpert-non-constructible-value
 date: '2021-03-24 00:00:00'
 author: heesung jang
-tags: leetcode, non-constructible
+tags: leetcode non-constructible
 categories: algorithm
 ---
 

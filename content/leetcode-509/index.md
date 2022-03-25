@@ -1,7 +1,7 @@
 ---
 emoji: ✏️
 title: leetcode(509)- Fibonacci number
-date: '2021-03-21 00:00:00'
+date: '2022-03-21 00:00:00'
 author: heesung jang
 tags: 재귀, 피보나치, leetcode
 categories: algorithm

@@ -4,7 +4,7 @@ title: Algorithm[binary-search]
 date: '2021-06-16 00:00:00'
 author: heesung jang
 tags: 알고리즘
-categories: 알고리즘
+categories: algorithm
 ---
 
 ## 1. 이진 탐색
