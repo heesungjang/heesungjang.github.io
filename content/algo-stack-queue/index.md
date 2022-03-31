@@ -1,6 +1,6 @@
 ---
 emoji: ✏️
-title: Stack(스택) & Queue(큐)
+title: Stack & Queue
 date: '2021-06-20 00:00:00'
 author: heesung jang
 tags: 알고리즘 스택 큐 stack queue
