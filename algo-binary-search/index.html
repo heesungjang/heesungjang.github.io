@@ -101,29 +101,20 @@ result <span class="token operator">=</span> is_existing_target_number_sequentia
 </blockquote>
 <h3 id="이진-탐색" style="position:relative;"><a href="#%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89" aria-label="이진 탐색 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>이진 탐색</h3>
 <p><img src="https://images.velog.io/images/heesungj7/post/e7c13b08-e919-41ad-94f2-b5fcc03bc9bf/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-06-16%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.47.03.png" alt=""></p>
-<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">finding_target <span class="token operator">=</span> <span class="token number">14</span>
-finding_numbers <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">13</span><span class="token punctuation">,</span> <span class="token number">14</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">]</span>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">binary_search</span><span class="token punctuation">(</span>array<span class="token punctuation">:</span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">,</span> target<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+    low <span class="token operator">=</span> <span class="token number">0</span>
+    high <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
 
+    <span class="token keyword">while</span> low <span class="token operator">&lt;=</span> high<span class="token punctuation">:</span>
+        mid <span class="token operator">=</span> <span class="token punctuation">(</span>low <span class="token operator">+</span> high<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span>
+        <span class="token keyword">if</span> target <span class="token operator">==</span> array<span class="token punctuation">[</span>mid<span class="token punctuation">]</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">True</span>
+        <span class="token keyword">elif</span> target <span class="token operator">&lt;</span> array<span class="token punctuation">[</span>mid<span class="token punctuation">]</span><span class="token punctuation">:</span>
+            high <span class="token operator">=</span> mid <span class="token operator">-</span> <span class="token number">1</span>
+        <span class="token keyword">elif</span> target <span class="token operator">></span> array<span class="token punctuation">[</span>mid<span class="token punctuation">]</span><span class="token punctuation">:</span>
+            low <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span>
 
-<span class="token keyword">def</span> <span class="token function">is_existing_target_number_binary</span><span class="token punctuation">(</span>target<span class="token punctuation">,</span> array<span class="token punctuation">)</span><span class="token punctuation">:</span>
-	current_min <span class="token operator">=</span> <span class="token number">0</span>
-    current_max <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
-    current_guess <span class="token operator">=</span> <span class="token punctuation">(</span>current_min <span class="token operator">+</span> current_max<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span>
-
-    <span class="token keyword">while</span> current_min <span class="token operator">&lt;=</span> current_max<span class="token punctuation">:</span>
-    	<span class="token keyword">if</span> array<span class="token punctuation">[</span>current_guess<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">:</span>
-    	    <span class="token keyword">return</span> <span class="token boolean">True</span>
-	<span class="token keyword">elif</span> array<span class="token punctuation">[</span>current_guess<span class="token punctuation">]</span> <span class="token operator">&lt;</span> target<span class="token punctuation">:</span>
-    	    current_min <span class="token operator">=</span> current_guess <span class="token operator">+</span> <span class="token number">1</span>
-	<span class="token keyword">else</span><span class="token punctuation">:</span>
-    	    current_max <span class="token operator">=</span> current_guess <span class="token operator">-</span> <span class="token number">1</span>
-	current_guess <span class="token operator">=</span> <span class="token punctuation">(</span>current_min <span class="token operator">+</span> current_max<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span>
-
-    <span class="token keyword">return</span> <span class="token boolean">False</span>
-
-
-result <span class="token operator">=</span> is_existing_target_number_binary<span class="token punctuation">(</span>finding_target<span class="token punctuation">,</span> finding_numbers<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span></code></pre></div>
+    <span class="token keyword">return</span> <span class="token boolean">False</span></code></pre></div>
 <div class="table-of-contents">
 <ul>
 <li>
