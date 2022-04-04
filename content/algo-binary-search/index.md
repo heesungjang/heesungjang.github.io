@@ -1,6 +1,6 @@
 ---
 emoji: ✏️
-title: Algorithm[binary-search]
+title: Algorithm[이진탐색]
 date: '2021-06-16 00:00:00'
 author: heesung jang
 tags: 알고리즘
@@ -50,29 +50,20 @@ print(result)  # True
 ![](https://images.velog.io/images/heesungj7/post/e7c13b08-e919-41ad-94f2-b5fcc03bc9bf/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-06-16%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.47.03.png)
 
 ```python
-finding_target = 14
-finding_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+def binary_search(array: List[int], target: int) -> int:
+    low = 0
+    high = len(array) - 1
 
-
-def is_existing_target_number_binary(target, array):
-	current_min = 0
-    current_max = len(array) - 1
-    current_guess = (current_min + current_max) // 2
-
-    while current_min <= current_max:
-    	if array[current_guess] == target:
-    	    return True
-	elif array[current_guess] < target:
-    	    current_min = current_guess + 1
-	else:
-    	    current_max = current_guess - 1
-	current_guess = (current_min + current_max) // 2
+    while low <= high:
+        mid = (low + high) // 2
+        if target == array[mid]:
+            return True
+        elif target < array[mid]:
+            high = mid - 1
+        elif target > array[mid]:
+            low = mid + 1
 
     return False
-
-
-result = is_existing_target_number_binary(finding_target, finding_numbers)
-print(result)
 ```
 
 ```toc

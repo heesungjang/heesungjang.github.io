@@ -38,17 +38,15 @@ categories: algorithm
 ### 예제 코드:
 
 ```python
-def selection_sort(data, n):
-	# data = [3, 4, 6, 8, 1, 2]
-	for i in range(n):
-		min = i
-		for j in range(i, n):
-			if data[j] < data[min]:
-				min = j
+def selection_sort(data: List[int]) -> List[int]:
+    n = len(data)
 
-		data[i], data[min] = data[min], data[i]
-
-	return data
+    for i in range(n):
+        min = i
+        for j in range(i, n):
+            if data[j] < data[min]:
+                data[i], data[j] = data[j], data[i]
+    return data
 ```
 
 ```toc

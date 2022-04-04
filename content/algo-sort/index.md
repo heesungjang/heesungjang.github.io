@@ -1,6 +1,6 @@
 ---
 emoji: ✏️
-title: Algorithm[sorting]
+title: Algorithm[정렬기초]
 date: '2021-06-14 00:00:00'
 author: heesung jang
 tags: 알고리즘 정렬
