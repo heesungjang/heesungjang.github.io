@@ -1,7 +1,7 @@
 ---
 emoji: ✏️
 title: leetcode(344)- reverse string
-date: '2022-03-28 00:00:00'
+date: '2022-04-08 00:00:00'
 author: heesung jang
 tags: dp, leetcode
 categories: algorithm
@@ -40,8 +40,6 @@ def reverse_string(s: List[int]) -> List[int]:
     return s
 ```
 
-````
-
 ```toc
 
-````
+```
