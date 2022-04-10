@@ -1,7 +1,7 @@
 ---
 emoji: ✏️
 title: leetcode(819)- Most Common Word
-date: '2022-04-07 00:00:00'
+date: '2022-04-10 00:00:00'
 author: heesung jang
 tags: leetcode
 categories: algorithm
