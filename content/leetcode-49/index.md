@@ -1,6 +1,6 @@
 ---
 emoji: ✏️
-title: leetcode(40)- Group Anagrams
+title: leetcode(49) - Group Anagrams
 date: '2022-04-10 00:00:00'
 author: heesung jang
 tags: leetcode
@@ -40,8 +40,4 @@ def group_anagrams(strs: List[str]):
         dic[sorted_word].append(word)
     print(dic)
     return list(dic.values())
-```
-
-```toc
-
 ```
