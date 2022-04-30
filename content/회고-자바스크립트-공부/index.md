@@ -1,6 +1,6 @@
 ---
 emoji: ✏️
-title: 회고 [자바스크립트 공부하자..]
+title: 회고 - 자바스크립트 공부하자
 date: '2022-04-05 00:00:00'
 author: heesung jang
 tags: 회고
