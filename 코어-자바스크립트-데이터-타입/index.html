@@ -145,27 +145,17 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <p>문자열 “heesung”에 “jang”을 추가하라고 명령하면 컴퓨터는 앞서 “heesung”이 저장된 공간에 “heesung jang”을 할당하는 대신 문자열을 새로 만들어 별도의 공간에 저장하고, 그 주소를 myName 변수 공간에 연결한다.</p>
 <p><img src="https://velog.velcdn.com/images/heesungj7/post/379cbc48-cd8c-4d5a-b91a-89ee5c1bc902/image.png" alt=""></p>
 <p>❗️ 기존 문자열에 어떤 변화를 가하든 상관없이 무조건 새로 만들어 별도의 공간에 저장한다. 이는 해당 메모리에 문자열이 아니고 숫자가 담겨있다고 해도 같다. 결국 변경은 새로 만드는 동작을 통해서만 이루어지며, 한 번 만들어진 값은 가비지 컬렉팅을 당하지 않는 한 영원히 변하지 않는다. <strong>이것이 자바스크립트의 기본형 데이터 타입이 불편 값의 성질을 가진다는 의미다.</strong></p>
-<h4 id="참고" style="position:relative;"><a href="#%EC%B0%B8%EA%B3%A0" aria-label="참고 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>참고:</h4>
+<h3 id="참고" style="position:relative;"><a href="#%EC%B0%B8%EA%B3%A0" aria-label="참고 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>참고:</h3>
 <ul>
 <li><a href="https://justjavascript.com/learn">Just Javascript - Dan abramov</a></li>
 <li><a href="http://www.yes24.com/Product/Goods/78586788">코어 자바스크립트</a></li>
 </ul>
 <div class="table-of-contents">
 <ul>
-<li>
-<p><a href="#%EB%93%A4%EC%96%B4%EA%B0%80%EB%A9%B0">🚪들어가며</a></p>
-</li>
-<li>
-<p><a href="#%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EC%A2%85%EB%A5%98">자바스크립트 데이터 타입 종류</a></p>
-</li>
-<li>
-<p><a href="#primitive-type%EA%B8%B0%EB%B3%B8%ED%98%95">Primitive type(기본형)</a></p>
-</li>
-<li>
-<p><a href="#%EF%B8%8F-under-the-hood">⚙️ Under the hood</a></p>
-<ul>
+<li><a href="#%EB%93%A4%EC%96%B4%EA%B0%80%EB%A9%B0">🚪들어가며</a></li>
+<li><a href="#%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EC%A2%85%EB%A5%98">자바스크립트 데이터 타입 종류</a></li>
+<li><a href="#primitive-type%EA%B8%B0%EB%B3%B8%ED%98%95">Primitive type(기본형)</a></li>
+<li><a href="#%EF%B8%8F-under-the-hood">⚙️ Under the hood</a></li>
 <li><a href="#%EC%B0%B8%EA%B3%A0">참고:</a></li>
-</ul>
-</li>
 </ul>
 </div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/leetcode-46/"><div class="direction">이전 글</div><div class="title">leetcode(46) - permutation</div></a></div><div class="post-navigator-card-wrapper"></div></div><div class="utterances"></div></main><footer class="page-footer-wrapper"></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/코어-자바스크립트-데이터-타입/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-f4de9aa84f3c63e12c6e.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-152a3002a24d4de41732.js" async=""></script><script src="/app-f4de9aa84f3c63e12c6e.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-7615b071e516b4cd6657.js" async=""></script></body></html>
