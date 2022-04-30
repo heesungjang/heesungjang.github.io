@@ -42,6 +42,14 @@
   Link: </component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
+/코어-자바스크립트-데이터-타입/
+  Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
+  Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
+  Link: </app-f4de9aa84f3c63e12c6e.js>; rel=preload; as=script
+  Link: </f9d3028dbef90a6e9b8db85387d63dd9f4edf538-152a3002a24d4de41732.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-template-js-ef83b594aa693e649d30.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/코어-자바스크립트-데이터-타입/page-data.json>; rel=preload; as=fetch; crossorigin
 /leetcode-46/
   Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
   Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
@@ -122,14 +130,6 @@
   Link: </component---src-templates-blog-template-js-ef83b594aa693e649d30.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/leetcode-53/page-data.json>; rel=preload; as=fetch; crossorigin
-/leecode-238/
-  Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
-  Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
-  Link: </app-f4de9aa84f3c63e12c6e.js>; rel=preload; as=script
-  Link: </f9d3028dbef90a6e9b8db85387d63dd9f4edf538-152a3002a24d4de41732.js>; rel=preload; as=script
-  Link: </component---src-templates-blog-template-js-ef83b594aa693e649d30.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/leecode-238/page-data.json>; rel=preload; as=fetch; crossorigin
 /leetcode-15/
   Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
   Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
@@ -138,6 +138,14 @@
   Link: </component---src-templates-blog-template-js-ef83b594aa693e649d30.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/leetcode-15/page-data.json>; rel=preload; as=fetch; crossorigin
+/leecode-238/
+  Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
+  Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
+  Link: </app-f4de9aa84f3c63e12c6e.js>; rel=preload; as=script
+  Link: </f9d3028dbef90a6e9b8db85387d63dd9f4edf538-152a3002a24d4de41732.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-template-js-ef83b594aa693e649d30.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/leecode-238/page-data.json>; rel=preload; as=fetch; crossorigin
 /leetcode-937/
   Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
   Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
@@ -372,6 +380,15 @@
   Link: </component---src-templates-category-template-js-fea460fedd50cffb10cd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/All/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/core
+  Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
+  Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
+  Link: </app-f4de9aa84f3c63e12c6e.js>; rel=preload; as=script
+  Link: </f9d3028dbef90a6e9b8db85387d63dd9f4edf538-152a3002a24d4de41732.js>; rel=preload; as=script
+  Link: </6f4bba98f912986b674e996ffe754740e25eb4ae-497ae11c4b9e2280ea2a.js>; rel=preload; as=script
+  Link: </component---src-templates-category-template-js-fea460fedd50cffb10cd.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/core/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/algorithm
   Link: </webpack-runtime-7615b071e516b4cd6657.js>; rel=preload; as=script
   Link: </framework-0e1bf37de02f7cef2174.js>; rel=preload; as=script
