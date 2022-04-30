@@ -4,7 +4,7 @@ title: Hash table
 date: '2021-11-09 00:00:00'
 author: heesung jang
 tags: hash-table, data-structure
-categories: DataStructure
+categories: algorithm
 ---
 
 ## #️⃣ 해시

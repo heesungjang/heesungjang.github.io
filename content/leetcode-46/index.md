@@ -1,7 +1,7 @@
 ---
 emoji: ✏️
 title: leetcode(46) - permutation
-date: '2022-04-19 00:00:00'
+date: '2022-04-25 00:00:00'
 author: heesung jang
 tags: leetcode
 categories: algorithm

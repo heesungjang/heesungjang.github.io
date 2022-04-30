@@ -4,7 +4,7 @@ title: Linked list
 date: '2021-06-15 00:00:00'
 author: heesung jang
 tags: linked list
-categories: DataStructure
+categories: algorithm
 ---
 
 ## 링크드 리스트란?
